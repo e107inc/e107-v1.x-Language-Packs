@@ -13,7 +13,7 @@
 setlocale(LC_ALL, 'is');
 define("CORE_LC", 'is');
 define("CORE_LC2", 'is');
-define("CHARSET", "iso-8859-1");  // for a true multi-language site. :)
+define("CHARSET", "utf-8");  // for a true multi-language site. :)
 define("CORE_LAN1","Villa : þema finnst ekki.\\n\\nChange the used themes in your preferences (admin area) or upload files of the current theme on the server.");
 
 //v.616
