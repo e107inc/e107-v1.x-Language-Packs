@@ -1,0 +1,59 @@
+<?php
+/*
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+|
+|     $Source: /cvsroot/e107/e107_0.7/e107_languages/Icelandic/lan_comment.php,v $
+|     $Revision: 1.7 $
+|     $Date: 2005/06/30 14:18:21 $
+|     $Author: damaverick_ $
++----------------------------------------------------------------------------+
+*/
+
+define("PAGE_NAME", "Athugasemdir");
+
+define("LAN_0", "[blokkað af admin]");
+define("LAN_1", "Afblokka");
+define("LAN_2", "Blokka");
+define("LAN_3", "Eyða");
+define("LAN_4", "Upplýsingar");
+define("LAN_5", "Athugasemdir ...");
+define("LAN_6", "Þú verður að vera skráður inn til að setja inn athugasemdir á þennan vef - skráðu þig inn eða, ef þú ert ekki Skráður Notandi smelltu þá:");
+define("LAN_7", "Vefstjóri");
+define("LAN_8", "Athugasemd");
+define("LAN_9", "Senda athugasemd");
+define("LAN_10", "Vefstjóri");
+define("LAN_11", "var ekki mögulegt að setja inn athugasemd - reyndur aftur án sér-stafa.");
+define("LAN_16", "Notendanafn: ");
+define("LAN_99", "Athugasemdir");
+define("LAN_100", "Fréttir");
+define("LAN_101", "Skoðanakönnun");
+define("LAN_102", "Svar til: ");
+define("LAN_103", "Grein");
+define("LAN_104", "Umfjöllun");
+define("LAN_105", "Efni");
+define("LAN_145", "Skráð: ");
+define("LAN_194", "Gestur");
+define("LAN_195", "Skráður notandi");
+define("LAN_310", "Ekki var hægt að samþykkja sendingu þar sem þetta notendanafn er í notkun - ef þetta er þitt notendanafn skráðu þig þá inn til að senda.");
+define("LAN_312", "Tvískráð efni - Ekki hægt að taka við.");
+define("LAN_313", "Staðsetning");
+define("LAN_314", "breyta athugasemdum");
+define("COMLAN_1", "hér");
+define("COMLAN_2", "til að skrá sig");
+define("COMLAN_3", "VILLA !");
+define("COMLAN_4", 'Varðandi');
+define("COMLAN_5", 'Vegna:');
+define("COMLAN_6", 'Svara þessu');
+define("COMLAN_7", 'Einkun');
+define("COMLAN_8", 'Athugasemdir eru læstar');
+
+define("LAN_315", "Afturvirk leit");
+define("LAN_316", "Engin afturvirk leit fyrir þessa frétt.");
+define("LAN_317", "Breyta afturvirkri leit");
+
+define("LAN_318", "Breyta athugasemd");
+define("LAN_319", "breytt");
+define("LAN_320", "Uppfæra athugasemd");
+
+?>
