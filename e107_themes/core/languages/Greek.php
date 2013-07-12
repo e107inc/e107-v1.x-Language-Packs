@@ -1,0 +1,33 @@
+<?php
+define('LAN_THEME_1', '');
+define('LAN_THEME_2', 'Σχόλια: ');
+define('LAN_THEME_3', 'Τα σχόλια είναι απενεργοποιημένα για αυτό το στοιχείο');
+define('LAN_THEME_4', 'Διαβάστε το πλήρες κείμενο');
+define('LAN_THEME_5', 'Trackbacks: '); 
+define('LAN_THEME_8', 'σε');
+define('LAN_THEME_9', 'απο');
+define("LAN_THEME_11", "Τελευταία νέα");
+define("LAN_THEME_12", "E-mail σε ένα φίλο");
+define("LAN_THEME_13", "Δημιουργήστε PDF αρχείο");
+define("LAN_THEME_14", "Εκτύπωση");
+define("LAN_THEME_15", "Επεξεργασία");
+define('LAN_THEME_17', 'Σύνδεση');
+define('LAN_THEME_18', 'Όνομα Χρήστη');
+define('LAN_THEME_19', 'Κωδικός');
+define('LAN_THEME_20', 'Εγγραφή');
+define('LAN_THEME_21', 'Σύνδεση');
+define('LAN_THEME_22', 'Ξεχάσατε τον κωδικό πρόσβασης?');
+define('LAN_THEME_23', 'Καλώς ήλθατε');
+define('LAN_THEME_24', 'Admin');
+define('LAN_THEME_26', 'Ρυθμίσεις');
+define('LAN_THEME_27', 'Προφίλ');
+define('LAN_THEME_28', 'Αποσύνδεση');
+define('LAN_THEME_29', 'Λίστα νέων');
+define('LAN_THEME_SING', 'Σύνδεση');
+define('LAN_THEME_REG', 'Εγγραφή');
+define("LAN_SEARCH", "Αναζήτηση");
+define("LAN_SEARCH_SUB", "Πηγαίνε");
+define('LAN_THEME_SHARE', 'Μοιραστείτε αυτό το');
+define('LAN_THEME_VER', 'sourtaferta.');
+define("CM_L13", "απο");
+?>

@@ -1,0 +1,121 @@
+<?php
+/*
++-----------------------------------------------------------------------------+
+|     Translated by: Sandijs Grīnbergs
+|     WWW: http://sandijs.ucoz.lv
+|     E-mail: sandijsgrinbergs@gmail.com
++-----------------------------------------------------------------------------+
+*/
+define("PAGE_NAME", "Reģistrēties");
+define("LAN_7", "Rādīt Vārdu:");
+define("LAN_8", "nosaukums, kas parādīsies saitē");
+define("LAN_9", "Lietotājvārds:");
+define("LAN_10", "vārds, kuru izmantojat, lai pieteiktos");
+define("LAN_17", "Parole:");
+define("LAN_103", "Šis lietotājvārds nevar tikt pieņemta kā derīgu, lūdzu, izvēlieties citu lietotājvārdu");
+define("LAN_104", "Šis lietotājvārds jau eksistē datubāzē, lūdzu izvēlieties citu lietotājvārdu");
+define("LAN_105", "Abas paroles nesakrīt");
+define("LAN_106", "Nešķiet, ka E-pasta adrese būtu derīga");
+define("LAN_107", "Paldies! Jūs šobrīd esat reģistrēts biedrs");
+define("LAN_108", "Reģistrācija Pabeigta");
+define("LAN_109", "Šī lapa atbilst Bērnu tiešsaistes privātuma aizsardzības likumam 1998 (COPPA) Lietotāji kas jaunāki par 13 bez rakstiskas atļaujas dokumenta no vecāku vai aizbildņa nevar uzsākt reģistrāciju. Plašāku informāciju Jūs varat izlasīt aktos.");
+define("LAN_110", "Reģistrācija");
+define("LAN_111", "Atkārto Paroli:");
+define("LAN_112", "E-Pasta adrese:");
+define("LAN_113", "Slēpt E-pasta adresi?:");
+define("LAN_114", "Tas neļaus jūsu e-pasta adresi publiski rādīt saitē");
+define("LAN_123", "Reģistrēt");
+define("LAN_185", "Jūs atstāja vajadzīgo lauku (s) tukšu");
+define("LAN_201", "Jā");
+define("LAN_200", "Nē");
+define("LAN_202", "Jums jau ir konts. Ja esat aizmirsis paroli, lūdzu uzklikšķiniet uz 'aizmirsu paroli' saites.");
+define("LAN_309", "Lūdzu, ievadiet savu informāciju zemāk.");
+define("LAN_399", "Turpināt");
+define("LAN_400", "Lietotājvārdus un paroles ir <b>reģistrjutīgi</b>.");
+define("LAN_401", "Jūsu konts tagad ir aktivizēts, lūdzu");
+define("LAN_402", "Reģistrācija aktivizēta");
+define("LAN_403", "Sveicināts");
+define("LAN_404", "Reģistrācijas dati par");
+define("LAN_405", "Šī reģistrācijas fāze ir pabeigta. Jūs saņemsiet apstiprinājuma e-pastu, ar savu pieteikšanās informāciju. Lūdzu, sekojiet saitei e-pastā, lai pabeigtu reģistrācijas procesu un aktivizēt savu kontu.");
+define("LAN_406", "Paldies!");
+define("LAN_407", "Lūdzu, saglabājiet šo vēstuli ar jūsu informāciju. Jūsu parole ir kodēta un to nevar atgūt, ja jūspazaudējāt vai aizmirsāt to. Jūs varat tomēr pieprasīt jaunu paroli, ja tas notiek.\n\nPaldies par Jūsu reģistrāciju.\n\nNo");
+define("LAN_408", "Ar šo e-pasta adresi lietotājs jau eksistē. Lūdzu, izmantojiet 'aizmirsu paroli' saiti, lai atgūt savu paroli.");
+define("LAN_SIGNUP_1", "Min.");
+define("LAN_SIGNUP_2", "simb.");
+define("LAN_SIGNUP_3", "Koda pārbaude neizdevās.");
+define("LAN_SIGNUP_4", "Parolei jābūt vismaz");
+define("LAN_SIGNUP_5", "rakstzīmes gar.");
+define("LAN_SIGNUP_6", "Jūsu");
+define("LAN_SIGNUP_7", "nepieciešams");
+define("LAN_SIGNUP_8", "Paldies!");
+define("LAN_SIGNUP_9", "Nevar turpināt.");
+define("LAN_SIGNUP_10", "Jā");
+define("LAN_SIGNUP_11", ".");
+define("LAN_409", "Nederīgs rakstzīmes lietotājvārdā");
+define("LAN_410", "Ievadiet kodu, kas redzams attēlā");
+define("LAN_411", "Rādīšanas vārds jau eksistē datubāzē, lūdzu izvēlieties citu parādāmo vārdu");
+define("LAN_SIGNUP_12", "lūdzu turiet savu lietotājvardu un paroli drošā vietā, zaudējumu gadījumā tos nevar atgūt.");
+define("LAN_SIGNUP_13", "Jūs varat pieslēgties no ieejas lodziņa, vai no <a href='".e_BASE."login.php'>Šejienes</a>.");
+define("LAN_SIGNUP_14", "te");
+define("LAN_SIGNUP_15", "Lūdzu, sazinieties ar Īpašnieku");
+define("LAN_SIGNUP_16", "ja Jums nepieciešama palīdzība.");
+define("LAN_SIGNUP_17", "Lūdzu aplieciniet, ka jums ir 13 vai virs 13 gadu vecums.");
+define("LAN_SIGNUP_18", "Jūsu reģistrācija ir saņemta un izveidota ar šādu pieteikšanās informāciju:");
+define("LAN_SIGNUP_21", "Jūsu konts šobrīd ir atzīmēts kā neaktīvs. Lai aktivizētu savu kontu, lūdzu, dodieties uz sekojošu saiti:");
+define("LAN_SIGNUP_22", "spied te");
+define("LAN_SIGNUP_23", "lie ienāktu.");
+define("LAN_SIGNUP_24", "Paldies par reģistrāciju");
+define("LAN_SIGNUP_25", "Augšupielādē savu avataru");
+define("LAN_SIGNUP_26", "Augšupielādē savu Foto");
+define("LAN_SIGNUP_27", "Rādīt");
+define("LAN_SIGNUP_28", "Izvēle Saturs/Pasta saraksts");
+define("LAN_SIGNUP_29", "Apstiprinājuma e-pasts tiks nosūtīts uz e-pasta adresi, kuru jūs šeit norādījāt, kā derīgu.");
+define("LAN_SIGNUP_30", "Ja jūs nevēlaties, parādīt savu e-pasta adresi šajā lapā, lūdzu izvēlieties 'Jā', lai 'Slēpt e-pasta adresi?' Iespēju.");
+define("LAN_SIGNUP_31", "URL uz tavu XUP failu");
+define("LAN_SIGNUP_32", "Kas ir XUP fails?");
+define("LAN_SIGNUP_33", "Ieraksti ceļu vai izvēlēties avataru");
+define("LAN_SIGNUP_34", "Lūdzu, ņemiet vērā: Visi attēlu augšupielādes uz šo servera, kas tiek uzskatītas par neatbilstošiem, tiks dzēsti uzreiz.");
+define("LAN_SIGNUP_35", "Noklikšķiniet šeit, lai reģistrētos izmantojot XUP failu");
+define("LAN_SIGNUP_36", "Radusies kļūda izveidojot savu lietotāja informāciju, lūdzu sazinieties ar vietnes administratoru");
+define("LAN_LOGINNAME", "Lietotājvārds");
+define("LAN_PASSWORD", "Parole");
+define("LAN_USERNAME", "Īstais Vārds");
+define("LAN_EMAIL_01", "Dārgais");
+define("LAN_EMAIL_04", "Lūdzu, saglabājiet šo vēstuli ar jūsu informāciju.");
+define("LAN_EMAIL_05", "Jūsu parole ir kodēta un tos nevar atgūt, ja jūs nozaudējāt vai aizmirsāt to. Jūs varat tomēr pieprasīt jaunu paroli, ja tas notiek.");
+define("LAN_EMAIL_06", "Paldies par Jūsu Reģistrāciju!");
+define("LAN_SIGNUP_37", "Šī reģistrācijas fāze ir pabeigta. Vietnes Adminam būs nepieciešams apstiprināt savu dalību. Kad tas būs izdarīts, jūs saņemsiet apstiprinājuma e-pastu, ka jūsu dalība ir apstiprināta.");
+define("LAN_SIGNUP_38", "Jūsu ievadītais divas dažādas e-pasta adreses. Lūdzu, ievadiet derīgu e-pasta adresi ar diviem iesniegtajiem laukiem");
+define("LAN_SIGNUP_39", "Atkārtojiet E-pasta adresi:");
+define("LAN_SIGNUP_40", "Aktivizēšana nav nepieciešama");
+define("LAN_SIGNUP_41", "Jūsu Konts jau ir Aktivizēts.");
+define("LAN_SIGNUP_42", "Radās problēma, reģistrācija pasts netika nosūtīts, lūdzu sazinieties ar vietnes administratoru.");
+define("LAN_SIGNUP_43", "E-pasts nosūtīts");
+define("LAN_SIGNUP_44", "Aktivizēšanas E-pasts nosūtīts:");
+define("LAN_SIGNUP_45", "Lūdzu pārbaudiet Ienakošo E-pastu.");
+define("LAN_SIGNUP_47", "Pārsūtīt Aktivizācijas E-pastu");
+define("LAN_SIGNUP_48", "Lietotājvārds vai E-pasts");
+define("LAN_SIGNUP_49", "Ja jūs esat reģistrēts ar nepareizu e-pasta adresi, ierakstiet jaunu un paroli šeit:");
+define("LAN_SIGNUP_50", "Jaunais E-pasts");
+define("LAN_SIGNUP_51", "Vecā Parole");
+define("LAN_SIGNUP_52", "Nepareiza Parole");
+define("LAN_SIGNUP_53", "lauks nav validācijas pārbaudi");
+define("LAN_SIGNUP_54", "Noklikšķiniet šeit, lai aizpildītu savus datus ģistrēt");
+define("LAN_SIGNUP_55", "Rādīšanās Vārds ir pārāk garš. Lūdzu, izvēlieties citu");
+define("LAN_SIGNUP_56", "Rādīšanās Vārds ir pārāk īss. Lūdzu, izvēlieties citu");
+define("LAN_SIGNUP_57", "Pieteikšanās vārds ir pārāk garš. Lūdzu, izvēlieties citu");
+define("LAN_SIGNUP_58", "Pierakstīšanās priekšskatījums");
+define("LAN_SIGNUP_59", "**** Ja saite nedarbojas, lūdzu, pārbaudiet, vai kāda bo daļām nav pārlekusi uz nākamo rindiņu. ****");
+define("LAN_SIGNUP_60", "Kļūda piekļūstot ārējam avataram");
+define("LAN_SIGNUP_72", "Paldies par pierakstīšanos uz [sitename]! Mēs tikko nosūtījām jums apstiprinājuma e-pastu [email]. Lūdzu, noklikšķiniet uz apstiprinājuma saites e-pastā, lai pabeigtu jūsu piereģistrēties un aktivizēt savu kontu.");
+define("LAN_SIGNUP_98", "Apstipriniet savu e-pasta adresi");
+define("LAN_SIGNUP_99", "problēma radās");
+define("LAN_SIGNUP_100", "Gaida Admina apstiprināšanu");
+define("LAN_SIGNUP_102", "pierakstīšanās atteicās");
+define("LAN_SIGNUP_103", "Pārāk daudzi lietotāju skaits jau lieto IP adresi:");
+define("LAN_SIGNUP_104", "Nederīgs avatar nosaukums");
+define("LAN_SIGNUP_105", "Nevar apstrādāt Jūsu pieprasījumu - lūdzu, sazinieties ar vietnes administratoru");
+define("LAN_SIGNUP_106", "Nevar apstrādāt Jūsu vēlmes - vai tev jau ir konts šeit?");
+
+
+?>
